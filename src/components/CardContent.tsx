@@ -16,7 +16,7 @@ const CardContent = ({ isVisible }: CardContentProps) => {
           <Flower className="text-purple-400 animate-float" size={24} />
         </div>
         
-        <h2 className="text-3xl font-cursive text-primary mb-6">Dear Docia,</h2>
+        <h2 className="text-3xl font-cursive text-primary mb-6">Dear Mom,</h2>
         <div className="text-lg font-elegant text-gray-700 space-y-4">
           <p>On this special Mother's Day, I want you to know how deeply loved and appreciated you are.</p>
           <p>Your strength, your kindness, and your unwavering support have been the foundation of our family.</p>
@@ -26,22 +26,12 @@ const CardContent = ({ isVisible }: CardContentProps) => {
         
         <div className="flex justify-center mt-8">
           <div className="px-6 py-3 bg-mothersDay-cream rounded-lg shadow-sm">
-            <p className="text-lg font-handwriting text-gray-700">I love you to the moon and back!</p>
+            <p className="text-lg font-handwriting text-gray-700">I hope you enjoy your day!</p>
           </div>
         </div>
         
         <div className="mt-10">
-          <h3 className="text-3xl font-handwriting text-primary mb-6">A Silly Poem Just For You</h3>
-          <div className="text-lg font-elegant text-gray-700 space-y-2">
-            <p>Roses are red, but your cooking is better,</p>
-            <p>You taught me to write my very first letter!</p>
-            <p>Your dance moves are wild, your jokes kinda lame,</p>
-            <p>But I love you, dear Mom, all the same!</p>
-            <p>You're the queen of eye-rolls and the master of sighs,</p>
-            <p>Your super mom strength still gives me surprise!</p>
-            <p>You can find lost socks and fix broken toys,</p>
-            <p>And your hugs are the ultimate source of joys!</p>
-          </div>
+          <p className="text-xl font-handwriting text-primary">I love you to the moon and back!</p>
         </div>
         
         <div className="absolute -bottom-10 left-0">

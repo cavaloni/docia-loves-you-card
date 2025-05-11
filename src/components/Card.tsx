@@ -24,9 +24,9 @@ const Card = () => {
                 <Flower className="text-purple-400 animate-float" size={28} />
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-cursive text-primary mb-4 animate-float">For Mom</h2>
+              <h2 className="text-4xl md:text-5xl font-cursive text-primary mb-4 animate-float">For Me Ma</h2>
               <div className="w-32 h-32 rounded-full border-4 border-white bg-mothersDay-lavender flex items-center justify-center mb-6 shadow-lg">
-                <h1 className="text-3xl font-handwriting text-purple-700">Docia</h1>
+                <h1 className="text-3xl font-handwriting text-purple-700">Dodie</h1>
               </div>
               <p className="text-xl font-elegant text-gray-700">Happy Mother's Day</p>
               <div className="mt-8 text-center">

@@ -13,7 +13,7 @@ const Index = () => {
         <Card />
         
         <div className="text-center mt-16">
-          <p className="text-sm text-gray-500">Made with love for Docia Vagnerini</p>
+          <p className="text-sm text-gray-500">Made with love for Dodie</p>
         </div>
       </div>
     </div>
