@@ -17,11 +17,17 @@ const CardContent = ({ isVisible }: CardContentProps) => {
         </div>
         
         <h2 className="text-3xl font-cursive text-primary mb-6">Dear Mom,</h2>
-        <div className="text-lg font-elegant text-gray-700 space-y-4">
-          <p>On this special Mother's Day, I want you to know how deeply loved and appreciated you are.</p>
-          <p>Your strength, your kindness, and your unwavering support have been the foundation of our family.</p>
-          <p>Thank you for your endless patience, your wise guidance, and the countless sacrifices you've made.</p>
-          <p>You are truly extraordinary, and I'm so grateful to call you Mom.</p>
+        
+        <div className="flex flex-col items-center mb-6">
+          <h3 className="text-2xl font-cursive text-primary mb-2">Happy Mother's Day!</h3>
+          <div className="max-w-md w-full mx-auto mb-2">
+            <img 
+              src="/lovable-uploads/8db28a54-ae29-43e1-9579-54ad001f19da.png" 
+              alt="Family photo" 
+              className="w-full rounded-lg shadow-md border-4 border-mothersDay-pink"
+            />
+          </div>
+          <p className="text-sm font-elegant text-gray-600 mt-2">Wish we could all be together</p>
         </div>
         
         <div className="flex justify-center mt-8">
