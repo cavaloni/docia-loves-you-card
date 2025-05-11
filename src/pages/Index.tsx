@@ -1,11 +1,20 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Card from '../components/Card';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen py-12 px-4 sm:px-6 flex flex-col items-center justify-center">
+      <div className="w-full max-w-4xl">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl font-cursive text-primary">Happy Mother's Day</h1>
+          <p className="text-gray-600 mt-2">A special message for a wonderful mom</p>
+        </div>
+        
+        <Card />
+        
+        <div className="text-center mt-16">
+          <p className="text-sm text-gray-500">Made with love for Docia Vagnerini</p>
+        </div>
       </div>
     </div>
   );
